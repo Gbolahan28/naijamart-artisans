@@ -21938,3 +21938,46 @@ body.coming-soon-page .header {
 .btn-video-player.playing svg.btn-pause {
   display: block;
 }
+
+.job-toggle-box button {
+  outline: none;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  min-width: 120px;
+  border-radius: 2px;
+}
+
+.job-toggle-box button.active {
+  background-color: #353535;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.job-toggle-box-inner {
+  background-color: #368f26;
+  padding: 3px 10px;
+}
+
+.job-toggle-box-inner button {
+  background-color: transparent; 
+  padding: 0 0 5px;
+  border: 1px solid transparent; 
+  outline: none;
+  color: #fff;
+  min-width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.job-toggle-box-inner button.active {
+  background-color: #fff; 
+  padding: 5px;
+  border: 1px solid #fff; 
+  outline: none;
+  color: #353535; 
+}
+
+
+.job-toggleable-section {
+  min-height: 300px;
+}
